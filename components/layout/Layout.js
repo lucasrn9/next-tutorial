@@ -1,9 +1,9 @@
-import Nav from "../nav/Nav"
+import Header from "../Header/Header"
 
 const Layout = ({ children }) => {
     return (
         <>
-            <Nav />
+            <Header />
             {children}
         </>
     )

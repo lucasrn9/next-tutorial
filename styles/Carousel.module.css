@@ -1,0 +1,90 @@
+.carouselTitle{
+    font-size: 1.563rem;
+    font-weight: bold;
+    text-align: center;
+    color: #2D2B25;
+}
+
+.swipperWrapper{
+    background: rgba(255, 198, 130, 0.36);
+    box-shadow: 0px 6px 9px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    padding: 28px 35.035px;
+    position: relative;
+}
+
+.mySwiper{
+position: static;
+}
+
+.centerSlide{
+    display: flex;
+    justify-content: center;
+}
+
+.swiperPrevSlideButton{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: -80px;
+    transform: translateY(-50%);
+}
+
+.swiperNextSlideButton{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: -80px;
+    transform: translateY(-50%);
+}
+
+.SwipperPaginationBulletActive{
+    background-color: #2D2B25;
+    opacity: 100%;
+}
+
+@media (max-width:980px) {
+    .swiperPrevSlideButton{
+        left: -50px;
+
+    }
+    
+    .swiperNextSlideButton{
+        right: -50px;
+    }
+}
+
+@media (max-width:500px) {
+    .swiperPrevSlideButton{
+        left: -46px;
+
+    }
+    
+    .swiperNextSlideButton{
+        right: -46px;
+    }
+}
+
+@media (max-width:340px) {
+    .swipperWrapper{
+        padding: 24px 16px;
+    }
+}
+
+@media (max-width:290px) {
+    .swiperPrevSlideButton{
+        display: none;
+    }
+    
+    .swiperNextSlideButton{
+        display: none;
+    }
+
+    .swipperWrapper{
+        padding: 32px 35.035px;
+    }
+}

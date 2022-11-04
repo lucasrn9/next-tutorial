@@ -1,0 +1,122 @@
+.shoppingSection{
+   width: 100%;
+   margin-top: 251px;
+   position: relative;
+   padding-bottom: 175px;
+}
+
+.shoppingSection h1{
+    font-size: 3.052rem;
+    font-weight: bold;
+    color: #2D2B25;
+    margin: 0 10rem;
+}
+
+.shoppingSectionModelWrapper{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 0;
+}
+
+.carouselsContainer{
+    position: relative;
+max-width: 776px;
+margin-left: 100px;
+}
+
+.carouselWrapper{
+    margin-top: 60px;
+}
+
+.carouselsContainer > button{
+    border: none;
+    background-color: transparent;
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-size: 1.563rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 34px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media (max-width:1450px) {
+    .shoppingSectionModelWrapper{
+    width: 400px;
+    }
+}
+
+@media (max-width:1350px) {
+    .shoppingSectionModelWrapper{
+    width: 300px;
+    }
+}
+
+@media (max-width:1250px) {
+    .shoppingSectionModelWrapper{
+    width: 200px;
+    }
+}
+
+@media (max-width:1150px) {
+    .shoppingSectionModelWrapper{
+    display: none;
+    }
+
+    .carouselsContainer{
+        margin: 0 auto;
+        }
+}
+
+@media (max-width:1024px) {
+    .shoppingSection{
+        margin-top: 100px;
+    }
+}
+
+@media (max-width:980px) {
+    .shoppingSection h1{
+        margin: 0 0rem;
+        text-align: center;
+    }
+
+    .carouselsContainer{
+        max-width: 776px;
+        margin-left: 0px;
+        }
+
+    .shoppingSection{
+    padding-left: 4rem;
+    padding-right: 4rem;
+         }
+}
+
+@media (max-width:500px) {
+    .shoppingSection{
+        margin-top: 0px;
+    }
+}
+
+@media (max-width:290px) {
+    .shoppingSection{
+        padding-left: 2rem;
+        padding-right: 2rem;
+             }
+}
+
+@media (max-width:230px) {
+    .shoppingSection{
+        padding-left: 0.4rem;
+        padding-right: 0.4rem;
+             }
+}
+
+@media (max-width:170px) {
+    .shoppingSection{
+        padding-left: 0.1rem;
+        padding-right: 0.1rem;
+             }
+}

@@ -19,6 +19,7 @@ export default function Home({ products }: HomeProps) {
           {products.map((product) => (
             <div key={product.id} className={styles.productCardWrapper}>
               <ProductCard
+                id={product.id}
                 imgSrc={product.image}
                 imgAlt={product.title}
                 title={product.title}
